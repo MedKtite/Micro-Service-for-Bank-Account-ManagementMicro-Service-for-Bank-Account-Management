@@ -31,8 +31,6 @@ public class BankAccountServiceApplication {
                         .currency("MAD")
                         .build();
                 bankAccountRepository.save(bankAccount);
-
-                System.out.println("Saved: " + bankAccount);
             }
         };
     }
